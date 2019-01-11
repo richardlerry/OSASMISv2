@@ -19,7 +19,7 @@ gitbash ====
 git init
 git add *
 git commit -m "Updating repository"
-git add remote https://github.com/richardlerry/OSASMISv2.git
+git remote add origin https://github.com/richardlerry/OSASMISv2.git
 git push origin master
 
 
