@@ -1,0 +1,63 @@
+install xampp
+install composer
+install vscode
+open cmd
+
+
+
+laravel ==== 
+
+composer create-project laravel/laravel="5.6.*" OSASMIS
+generate .env file
+php artisan key:generate
+configure .env file
+
+
+
+gitbash ====
+
+git init
+git add *
+git commit -m "Updating repository"
+git add remote https://github.com/richardlerry/OSASMISv2.git
+git push origin master
+
+
+
+OSAS MODULES ====
+
+Student Profiling
+Student Sanctions
+Student Financial Assistance
+Student Semestral Clearance
+Student General Clearance
+
+Event Management
+Financial - Voucher, Remittance, Cashflow,
+Organization Accreditation
+Organization Profile Management 
+
+Loss of ID and Regicard
+
+Document Archiving
+Student Support Documents 
+
+Announcement 
+Front End Management
+
+
+
+
+cloning git repository === 
+
+open gitbash
+point to the specified directory
+execute the following code
+
+
+git clone https://github.com/richardlerry/OSASMISv2.git
+composer install
+copy('.env.example', '.env');"
+php artisan key:generate
+configure the .env file
+
